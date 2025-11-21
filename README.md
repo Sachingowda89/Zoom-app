@@ -1,34 +1,33 @@
-📹 Zoom App – Real-Time Video Conferencing Platform
+# 📹 Zoom App – Real-Time Video Conferencing Platform
+
+A production-ready **Zoom-like video meeting application** built with **React + Node.js + WebRTC + Socket.io**.  
+Supports **multi-user video conferencing**, **real-time chat**, **meeting rooms**, and **authentication**.
+
+---
+
+## 🚀 Live Demo
+
+🔗 **Frontend:** https://zoom-app-5.onrender.com  
+🔗 **Backend API:** https://zoom-backend.onrender.com  
+
+---
+
+## ✨ Features
+
+- 🔐 User Authentication (JWT)  
+- 🎥 Real-Time Video Calling (WebRTC)  
+- 👥 Multi-User Meeting Rooms  
+- 💬 Real-Time Chat (Socket.io)  
+- 🏠 Create / Join Rooms  
+- 📡 Peer-to-Peer Connection  
+- 📱 Responsive UI  
+- 🚀 Production Deployment on Render  
+
+---
+
+## 🏗️ System Architecture
 
 
-A production-ready Zoom-like video meeting application built with React + Node.js + WebRTC + Socket.io.
-Supports multi-user video conferencing, real-time chat, meeting rooms, and authentication.
-
-🚀 Live Demo
-
-🔗 Frontend: https://zoom-app-5.onrender.com
-
-🔗 Backend API: https://zoom-backend.onrender.com
-
-✨ Features
-
-🔐 User Authentication (JWT)
-
-🎥 Real-Time Video Calling (WebRTC)
-
-👥 Multi-User Meeting Rooms
-
-💬 Real-Time Chat (Socket.io)
-
-🏠 Create / Join Rooms
-
-📡 Peer-to-Peer Connection
-
-📱 Responsive UI
-
-🚀 Production Deployment on Render
-
-🏗️ System Architecture
 
  ┌───────────────┐       HTTP / HTTPS        ┌────────────────┐
  │   Frontend     │--------------------------▶│   Backend API  │
@@ -39,41 +38,41 @@ Supports multi-user video conferencing, real-time chat, meeting rooms, and authe
           ▼                                           ▼
    WebRTC Peer Connections                    MongoDB Database
 
-🛠️ Tech Stack
+#🛠️ Tech Stack
 Frontend
 
-React.js
+- React.js
 
-WebRTC
+- WebRTC
 
-Socket.io-client
+- Socket.io-client
 
-Tailwind CSS
+- Tailwind CSS
 
-Backend
+- Backend
 
-Node.js
+- Node.js
 
-Express.js
+- Express.js
 
-MongoDB (Mongoose)
+- MongoDB (Mongoose)
 
-JWT Authentication
+- JWT Authentication
 
-Socket.io
+- Socket.io
 
-Deployment
+##Deployment
 
 Render Web Service (Backend)
 
 Render Static Site (Frontend)
 
-📦 Installation (Local Setup)
+##📦 Installation (Local Setup)
 1. Clone the Repository
 git clone <your-repo-link>
 cd project-folder
 
-2. Install Backend
+#2. Install Backend
 cd backend
 npm install
 
@@ -85,8 +84,7 @@ JWT_SECRET=your_secret
 PORT=8000
 
 
-Run backend:
-
+#Run backend:
 npm start
 
 3. Install Frontend
