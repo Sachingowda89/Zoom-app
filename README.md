@@ -1,5 +1,6 @@
 📹 Zoom App – Real-Time Video Conferencing Platform
 
+
 A production-ready Zoom-like video meeting application built with React + Node.js + WebRTC + Socket.io.
 Supports multi-user video conferencing, real-time chat, meeting rooms, and authentication.
 
@@ -28,6 +29,7 @@ Supports multi-user video conferencing, real-time chat, meeting rooms, and authe
 🚀 Production Deployment on Render
 
 🏗️ System Architecture
+
  ┌───────────────┐       HTTP / HTTPS        ┌────────────────┐
  │   Frontend     │--------------------------▶│   Backend API  │
  │ React + WebRTC │                           │  Node + Express│
@@ -126,6 +128,4 @@ Add backend API URL in frontend config:
 
 let IS_PROD = true;
 const server = "https://zoom-backend.onrender.com";
-
-
 
